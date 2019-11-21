@@ -37,6 +37,6 @@ https://www.twse.com.tw/zh/page/trading/exchange/STOCK_DAY_AVG.html
 其中，//*[contains(text(),'繼續營業單位稅前淨利')]  
 這段代表的意義其實就是 find_element_by_text  
 
-而 "/../following-sibling::*[1]"  
+而 /../following-sibling::\*[1]  
 這段是先藉由前面的XPath定位到正確的一行  
-再藉由 following-sibling::*[1] 定位到鄰近的partner element上  
+再藉由 following-sibling::\*[1] 定位到鄰近的partner element上  
