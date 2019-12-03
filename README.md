@@ -1,4 +1,4 @@
-# Crawl_Web_Page
+# Crawl_Stock_Info
 練習使用Selenium進行簡單的網頁爬蟲
 
 ## 執行指令
